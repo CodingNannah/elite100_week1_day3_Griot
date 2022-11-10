@@ -1,0 +1,186 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+    align-self: center;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+header{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://philadelphiatheatrecompany.org/wp-content/uploads/2012/01/seats.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.nav-area{
+    list-style: none;
+    width: 100;
+    height: auto;
+}
+
+.nav-area a{
+    display: inline-flex;
+    position: relative;
+    align-content: space-around;
+    align-items: stretch;
+}
+
+.nav-area a {
+color: rgb(240, 231, 231);
+text-decoration: none;
+padding: 25px 20px;
+font-family: Arial;
+font-size: 16px;
+text-transform: capitalize;
+text-align: center;
+}
+
+.nav-area li a:hover{
+    background: rgb(206, 128, 128);
+    color: #333;
+}
+
+.welcome-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+
+.welcome-text h1{
+    text-align: center;
+    color: rgb(240, 231, 231);
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.welcome-text a{
+    border: 1px solid rgb(206, 128, 128);
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: rgb(240, 231, 231);
+}
+
+.welcome-text a:hover{
+    background: rgb(206, 128, 128);
+    color: rgb(42, 44, 44);
+}
+
+.menu-area a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(240, 231, 231);
+    background: rgb(42, 44, 44);
+    height: 60px;
+    font-family:Arial;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    flex-wrap: nowrap;
+  
+}
+
+.menu-area a:hover{
+    background: rgb(65,138,197);
+    color: rgb(240, 231, 231);
+}
+  
+.menu-area ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu-area li{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.menu-area li:hover .dropdown-1 > li{
+    display: block;
+    top: 0;
+}
+
+.img {
+    width: 50%;
+    height: auto;
+    margin-left: 5px;
+    border: 1px solid lightslategray;
+}
+
+.footer {
+    background-color: black;
+    place-self: center;
+    width: 100%;
+    height: auto;
+    color:white;
+}
+
+.footer-container {
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+    width: 75%;
+    justify-content: center;
+}
+
+.footer-container p:hover {
+    color:rgb(209, 250, 250);
+}
+
+.footer-map {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.footer-links {
+    display: flex;
+    width: 75%;
+    align-items: flex-start;
+    margin-right: 15px;
+    justify-content: space-between;
+}
+
+.footer img {
+    width: 100%;
+    height: auto;
+    opacity: 3;
+}
+
+.footer-shows {
+    margin-right: 4em;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.icon {
+    display: inline;
+    color: rgb(216, 166, 73);
+    margin-right: 10px;
+}
+
+.footer-shows-container *{
+    margin: 5px 0;
+}
+
