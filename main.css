@@ -1,17 +1,17 @@
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Arial', sans-serif;
     align-self: center;
 }
 
 /* top */
-header{
+header {
     background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://philadelphiatheatrecompany.org/wp-content/uploads/2012/01/seats.png);
     height: 100vh;
     background-size: cover;
@@ -19,21 +19,14 @@ header{
     position: relative;
 }
 
-.container{
+.container {
     width: 100%;
     margin: auto;
 }
 
-/* top - navbar */
-.nav-area{
-    /* display: flex; */
-    /* padding: 15px; */
-}
-
-.nav-area a{
+/* top - navbar & hero welcome*/
+.nav-area a {
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
     color: rgb(240, 231, 231) !important;
     font-family: Arial;
     font-weight: 800px;
@@ -42,27 +35,27 @@ header{
     text-decoration: none;
 }
 
-.nav{
+.nav {
     display: flex;
     height: 60px;
     padding: 10px;
     list-style: none;
 }
 
-.nav-item{
+.nav-item {
     position: relative;
     width: 100%;
     padding: 25px;
     text-align: center;
 }
 
-.nav-item:hover{
+.nav-item:hover {
     background: #92342f;
     padding: 25px;
     color: white;
 }
 
-.nav-item:hover .dropdown > .drop-item{
+.nav-item:hover .dropdown > .drop-item {
     display: block;
     margin-top: 5px;
     width: 97%;
@@ -72,7 +65,7 @@ header{
     padding: 5px;
 }
 
-.dropdown{
+.dropdown {
     display: flex;
     position: absolute;
     flex-direction: column;
@@ -80,7 +73,7 @@ header{
     color: white;
 }
 
-.drop-item{
+.drop-item {
     display: none;
     position: relative;
     text-align: start;
@@ -112,81 +105,75 @@ header{
     color: rgb(240, 231, 231);
 }
 
-.welcome a:hover{
+.welcome a:hover {
     background: #92342f;
     color: white;
 }
 
-
-
-/* .menu-area li:hover .dropdown-1 > li{
-    display: block;
-    top: 0;
-} */ 
-
-.img {
-    width: 50%;
-    height: auto;
-    margin-left: 5px;
-    border: 1px solid lightslategray;
+/* middle - main */
+.main {
+    background-color: beige;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
+.img-box {
+    height: 50%;
+    width: auto;
+    margin-left: 5px;
+    border: 3px solid lightslategray;
+}
+
+/* bottom - footer */
 .footer {
     background-color: black;
-    place-self: center;
     width: 100%;
     height: auto;
     color:white;
 }
 
 .footer-container {
-    margin-top: 5px;
-    margin-left: 5px;
     display: flex;
-    width: 75%;
-    justify-content: center;
-}
-
-.footer-container p:hover {
-    color:rgb(209, 250, 250);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    align-items:flex-start;
+    justify-content:space-around;
 }
 
 .footer-map {
-    margin-right: 10px;
-    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-right: 10px;
 }
 
-.footer-links {
+.footer-info {
     display: flex;
-    width: 75%;
-    align-items: flex-start;
-    margin-right: 15px;
-    justify-content: space-between;
-}
-
-.footer img {
-    width: 100%;
-    height: auto;
-    opacity: 3;
+    flex-direction: column;
+    padding-top: 45px;
 }
 
 .footer-shows {
-    margin-right: 4em;
-}
-
-.footer-links {
     display: flex;
-    align-items: center;
-    margin: 5px 0;
+    flex-direction: column;
+    padding-top: 45px;
 }
 
-.icon {
-    display: inline;
-    color: rgb(216, 166, 73);
-    margin-right: 10px;
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    padding-right: 50px;
+    padding-top: 20px;
 }
 
-.footer-shows-container *{
-    margin: 5px 0;
+.social-icon {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
 }
-
