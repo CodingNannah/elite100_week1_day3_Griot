@@ -10,18 +10,29 @@ body {
     align-self: center;
 }
 
+a.button{
+    background-color:#cc0000;
+    border:1px solid #ce2e2e;
+    border-radius:5px;
+    color:rgb(240, 231, 231);
+    margin-right:10px;
+    padding:10px 10px 10px 10px;
+    text-decoration: none;
+   }
+
+a {
+    text-decoration: none;
+}
+
 /* top */
 header {
     background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://philadelphiatheatrecompany.org/wp-content/uploads/2012/01/seats.png);
     height: 100vh;
+    /* width: 100%; */
+    margin: auto;
     background-size: cover;
     background-position: center center;
     position: relative;
-}
-
-.container {
-    width: 100%;
-    margin: auto;
 }
 
 /* top - navbar & hero welcome*/
@@ -52,7 +63,7 @@ header {
 .nav-item:hover {
     background: #92342f;
     padding: 25px;
-    color: white;
+    color: rgb(240, 231, 231);
 }
 
 .nav-item:hover .dropdown > .drop-item {
@@ -60,8 +71,6 @@ header {
     margin-top: 5px;
     width: 97%;
     list-style: none;
-    background: #92342f;
-    color: white;
     padding: 5px;
 }
 
@@ -69,8 +78,6 @@ header {
     display: flex;
     position: absolute;
     flex-direction: column;
-    background: #c1736f;
-    color: white;
 }
 
 .drop-item {
@@ -79,12 +86,17 @@ header {
     text-align: start;
 }
 
+.drop-item:hover {
+    background: #e26059;
+    padding: 25px;
+}
+
 .welcome {
-    position: absolute;
-    width: 600px;
-    height: 300px;
-    margin: 15% 30%;
-    text-align: center;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .welcome h1 {
@@ -107,21 +119,55 @@ header {
 
 .welcome a:hover {
     background: #92342f;
-    color: white;
+    color: rgb(240, 231, 231);
 }
 
 /* middle - main */
-.main {
-    background-color: beige;
-    padding-top: 20px;
-    padding-bottom: 20px;
+main {
+    background-color: tan;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.img-box {
-    height: 50%;
-    width: auto;
-    margin-left: 5px;
-    border: 3px solid lightslategray;
+.main-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px; 
+}
+
+.main-mast {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    text-transform: uppercase;
+    padding: 25px;
+}
+
+.main-mast h2 strong {
+    font-size: 45px;
+}
+
+.shows {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.shows-text{
+    margin: 20px;
+    padding-left: 10px;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.top-link {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* bottom - footer */
@@ -129,16 +175,14 @@ header {
     background-color: black;
     width: 100%;
     height: auto;
-    color:white;
+    color:rgb(240, 231, 231);
 }
 
 .footer-container {
     display: flex;
     padding-top: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-    align-items:flex-start;
-    justify-content:space-around;
+    align-items: stretch;
+    justify-content: space-around;
 }
 
 .footer-map {
@@ -148,32 +192,49 @@ header {
     padding-right: 10px;
 }
 
-.footer-info {
-    display: flex;
-    flex-direction: column;
-    padding-top: 45px;
-}
-
 .footer-shows {
     display: flex;
     flex-direction: column;
     padding-top: 45px;
 }
 
+.footer-shows a {
+    width:60%;
+}
+
+.footer-shows .button {
+    text-align: center;
+    font-size: 25px;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 45px;
+    margin-right: 25px;
+}
+
 .footer-social {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 150px;
-    padding-right: 50px;
-    padding-top: 20px;
+    justify-content: flex-start;
+    margin-right: 25px;
+    padding-right: 10px;
+    padding-top: 45px;
+}
+
+.icons {
+    display: flex;
 }
 
 .social-icon {
-    display: flex;
-    flex-direction: row;
     border-radius: 10px;
     width: 45px;
     height: 45px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    padding-top: 345px;
 }

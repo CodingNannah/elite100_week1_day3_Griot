@@ -5,29 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="edge=">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Griot Theatre</title>
-    <link rel="icon" type="image/x-icon" href="./images/masks.ico.png">
+    <link rel="icon" type="image/x-icon" href="./images/masks.png">
     <link rel="stylesheet" href="./main.css">
    
 </head>
 <body>
-    <header class="container">
+    <header>
         <nav class="nav-area">
             <ul class="nav">
-                <li class="nav-item"><a href="./index.html">Home</a></li>
+                <li class="nav-item"><a id="home" href="./index.html">Home</a></li>
                 <!-- open in new window: target="_blank" -->
                 <li class="nav-item"><a href="https://www.britannica.com/art/griot" target="_blank">What Is "Griot"?</a></li>
                 <li class="nav-item"><a href="https://www.youtube.com/watch?v=sWsWnsxPRvk" target="_blank">Our Mission</a></li>
                 <li class="nav-item"><a href="https://www.youtube.com/channel/UCCukfRt3nG7zq4y9owzgExQ/about" target="_blank">Our Theater Company</a></li>
                 <!-- pull-down w four -->
-                <li class="nav-item nav-drop"><a href="#">Our Current Shows</a>
+                <li class="nav-item"><a href="#">Our Current Shows</a>
                     <ul class="dropdown">
-                        <li class="drop-item"><a href="#">A Raisin in the Sun</a></li>
-                        <li class="drop-item"><a href="#">The Piano Lesson</a></li>
-                        <li class="drop-item"><a href="#">Fences</a></li>
-                        <li class="drop-item"><a href="#">Choir Boy</a></li>
+                        <li class="drop-item"><a href="#raisin">A Raisin in the Sun</a></li>
+                        <li class="drop-item"><a href="#piano">The Piano Lesson</a></li>
+                        <li class="drop-item"><a href="#fences">Fences</a></li>
+                        <li class="drop-item"><a href="#choir-boy">Choir Boy</a></li>
                     </ul>
                 </li>
-                <li class="nav-item nav-drop"><a href="#">Our Past Productions</a>
+                <li class="nav-item"><a href="#">Our Past Productions</a>
                     <ul class="dropdown">
                         <li class="drop-item"><a href="https://www.griottheatercompany.org/theheroinher" target="_blank">Oratorical: The Hero in Her</a></li>
                         <li class="drop-item"><a href="https://www.youtube.com/watch?v=3Rw_OhQbLpI" target="_blank">Porgy & Bess</a></li>
@@ -42,7 +42,7 @@
                 <li class="nav-item"><a href="http://www.griottheatre.org/contact.html" target="_blank">Contact Us</a></li>
                 <li class="nav-item search">
                     <a href="./images/search.jpg" target="_blank" alt="Search icon">
-                    <input type="text" class="search-input" placeholder="Search"></a>
+                    Search:&nbsp;&nbsp;&nbsp;<input type="text" class="search-input"></a>
                 </li>
             </ul>
         </nav>
@@ -53,71 +53,113 @@
         </div>
     </header>
 
-    <main class="main">
+    <main>
         <div class="main-head">
-            <h2>Griot Theatre Proudly Presents!</h2>
-            <h4>Winter 2022-2023</h4>
-        </div><br>
+            <img src="./images/masks.png" alt="Theatrical Mask" style="height:150px;">
+            <div class="main-mast">
+                <h2><strong>Griot Theatre Proudly Presents!</strong></h2>
+                <h2>Winter Season 2022-2023</h2><br>
+            </div>
+            <img src="./images/masks.png" alt="Theatrical Mask" style="height:150px;">
+        </div>
+        <hr>
         
         <div class="shows">
-            <div class="img-box"><img src="./images/raisin_sun.png" target="_blank" alt="scene from 'A Raisin in the Sun'"></div>
+            <div class="img-box"><img src="./images/raisin.jpg" target="_blank" alt="scene from 'A Raisin in the Sun'" style="width:auto;height:500px;"></div>
             <div class="shows-text">
-                <h3>A Raisin In The Sun</h3><br>
+                <h3><a id="raisin">A Raisin In The Sun</a></h3><br>
                 <p><strong>When:</strong> Fridays in November and Saturdays in December 2022</p>
                 <p><strong>Saturday Matinee:</strong> Theatre doors open at 1:30pm. Play begins promptly at 2pm.</p>
-                <p><strong>Regular time:</strong> Theatre doors open at 6:30pm. Play begins promptly at 7pm.</p>
-                <p><strong>Where:</strong> Griot Theatre, 223 S. State St. Chicago, IL</p><br>
-            </div>
-            <div class="shows-btns">
-                <a href="https://www.youtube.com/watch?v=JMsnRzJdhew" target="_blank" class="button">About the Play</a>
-                <a href="https://thebeverlyartscenter.com/event/a-raisin-in-the-sun/" target="_blank" class="button"><strong>Tickets</strong></a>
+                <p><strong>Evening Show:</strong> Theatre doors open at 6:30pm. Play begins promptly at 7pm.</p>
+                <p><strong>Where:</strong> Griot Theatre at 223 S. State St. Chicago, IL</p><br>
+                
+                <p><strong>Ticket Prices</strong></p>
+                <p>Season Pass: $157.00</p>
+                <p>Prime Seating: $75.00 </p>
+                <p>Regular & Matinee: $45.00</p>
+                <p>Senior Citizens, Military, Students (with ID): $25.00</p><br>
+
+                <br>
+                <div class="shows-btns">
+                    <a href="https://www.youtube.com/watch?v=JMsnRzJdhew" target="_blank" class="button">About the Play</a>
+                    <a href="https://thebeverlyartscenter.com/event/a-raisin-in-the-sun/" target="_blank" class="button">Tickets</a>
+                </div>
             </div>
         </div><br>
+        <hr>
 
         <div class="shows">
-            <div class="img-box"><img src="./images/piano_lesson.jpg" target="_blank" alt="scene from 'The Piano Lesson'"></div>
+            <div class="img-box"><img src="./images/piano_lesson.jpg" target="_blank" alt="scene from 'The Piano Lesson'" style="width:auto;height:500px;"></div>
             <div class="shows-text">
-                <h3>The Piano Lesson</h3><br>
+                <h3><a id="piano">The Piano Lesson</a></h3><br>
                 <p><strong>When:</strong> Saturdays in November and Fridays in December 2022</p>
                 <p><strong>Saturday Matinee:</strong> Theatre doors open at 1:30pm. Play begins promptly at 2pm.</p>
-                <p><strong>Regular time:</strong> Theatre doors open at 6:30pm. Play begins promptly at 7pm.</p>
+                <p><strong>Evening Show:</strong> Theatre doors open at 6:30pm. Play begins promptly at 7pm.</p>
                 <p><strong>Where:</strong> Griot Theatre, 223 S. State St. Chicago, IL</p><br>
-            </div>
-            <div class="shows-btns">
-                <a href="https://abc7ny.com/the-piano-lesson-broadway-theater-new-york-city/12208981/" target="_blank" class="button">About the Play</a>
-                <a href="https://pianolessonplay.com/tickets/" target="_blank" class="button"><strong>Tickets</strong></a>
+                
+                <p><strong>Ticket Prices</strong></p>
+                <p>Season Pass: $157.00</p>
+                <p>Prime Seating: $75.00 </p>
+                <p>Regular & Matinee: $45.00</p>
+                <p>Senior Citizens, Military, Students (with ID): $25.00</p><br>
+                
+                <br>
+                <div class="shows-btns">
+                    <a href="https://abc7ny.com/the-piano-lesson-broadway-theater-new-york-city/12208981/" target="_blank" class="button">About the Play</a>
+                    <a href="https://pianolessonplay.com/tickets/" target="_blank" class="button">Tickets</a>
+                </div>
             </div>
         </div><br>
+        <hr>
 
         <div class="shows">
-            <div class="img-box"><img src="./images/fences.jpg" target="_blank" alt="scene from 'Fences'"></div>
+            <div class="img-box"><img src="./images/fences.jpg" target="_blank" alt="scene from 'Fences'" style="width:auto;height:500px;"></div>
             <div class="shows-text">
-                <h3>Fences</h3><br>
+                <h3><a id="fences">Fences</a></h3><br>
                 <p><strong>When:</strong> Fridays in January and Saturdays in February 2023</p>
                 <p><strong>Saturday Matinee:</strong> Theatre doors open at 1:30pm. Play begins promptly at 2pm.</p>
-                <p><strong>Regular time:</strong> Theatre doors open at 6:30pm. Play begins promptly at 7pm.</p>
+                <p><strong>Evening Show:</strong> Theatre doors open at 6:30pm. Play begins promptly at 7pm.</p>
                 <p><strong>Where:</strong> Griot Theatre, 223 S. State St. Chicago, IL</p><br>
-            </div>
-            <div class="shows-btns">
-                <a href="https://www.youtube.com/watch?v=wbXW9qmoiS0" target="_blank" class="button">About the Play</a>
-                <a href="https://www.theatreinchicago.com/fences/11689/" target="_blank" class="button"><strong>Tickets</strong></a>
+                
+                <p><strong>Ticket Prices</strong></p>
+                <p>Season Pass: $157.00</p>
+                <p>Prime Seating: $75.00 </p>
+                <p>Regular & Matinee: $45.00</p>
+                <p>Senior Citizens, Military, Students (with ID): $25.00</p><br>
+                
+                <br>
+                <div class="shows-btns">
+                    <a href="https://www.youtube.com/watch?v=wbXW9qmoiS0" target="_blank" class="button">About the Play</a>
+                    <a href="https://www.theatreinchicago.com/fences/11689/" target="_blank" class="button">Tickets</a>
+                </div>
             </div>
         </div><br>
+        <hr>
 
         <div class="shows">
-            <div class="img-box"><img src="./images/choir_boy.jpg" target="_blank" alt="scene from 'Choir Boy'"></div>
-            <div class="text-4">
-                <h3>Choir Boy</h3><br>
+            <div class="img-box"><img src="./images/choir_boy.jpg" target="_blank" alt="scene from 'Choir Boy'" style="width:auto;height:500px;"></div>
+            <div class="shows-text">
+                <h3><a id="choir-boy">Choir Boy</a></h3><br>
                 <p><strong>When:</strong> Saturdays in January and Fridays in February 2023</p>
                 <p><strong>Saturday Matinee:</strong> Theatre doors open at 1:30pm. Play begins promptly at 2pm.</p>
-                <p><strong>Regular time:</strong> Theatre doors open at 6:30pm. Play begins promptly at 7pm.</p>
+                <p><strong>Evening Show:</strong> Theatre doors open at 6:30pm. Play begins promptly at 7pm.</p>
                 <p><strong>Where:</strong> Griot Theatre, 223 S. State St. Chicago, IL</p><br>
+                
+                <p><strong>Ticket Prices</strong></p>
+                <p>Season Pass: $157.00</p>
+                <p>Prime Seating: $75.00 </p>
+                <p>Regular & Matinee: $45.00</p>
+                <p>Senior Citizens, Military, Students (with ID): $25.00</p><br>
+                
+                <br>
+                <div class="shows-btns">
+                    <a href="https://www.youtube.com/watch?v=jAPiB1HcqRQ" target="_blank" class="button">About the Play</a>
+                    <a href="https://www.raventheatre.com/stage/choir-boy/" target="_blank" class="button">Tickets</a>
+                </div>
             </div>
-            <div class="container-shows">
-                <a href="https://www.youtube.com/watch?v=jAPiB1HcqRQ" target="_blank" class="button">About the Play</a>
-                <a href="https://www.raventheatre.com/stage/choir-boy/" target="_blank" class="button"><strong>Tickets</strong></a>
-            </div>
-        </div> 
+        </div><br>
+        <hr>
+        <a class="top-link" href="#home">Back to Top</a>
     </main>
 
     <footer class="footer">
@@ -126,18 +168,7 @@
                 <a href="https://duckduckgo.com/?q=223+S+State+St+Chicago%2C+IL&ia=web&iaxm=maps&strict_bbox=0&bbox=35.92072040055223%2C-76.26167929061799%2C35.91173724771103%2C-76.24234458249722" target="_blank">
                 <img class="img" src="./images/map.jpg" alt="Click to visit Map for directions"></a>
             </div>
-            
-            <div class="footer-info">
-                <h3>Information</h3><br>
-                <div class="address">
-                    <p>223 S. State Street</p>
-                    <p>Chicago, IL 60611 United States</p></div><br>
-                <div class="email">
-                    <p>HelpDesk@Griot.org</p></div><br>
-                <div class="phone">
-                    <p>Call Us: (773)321-0213</p></div>
-            </div>
-                
+
             <div class="footer-shows">
                 <h3>Coming Attractions</h3><br>
                 <h5>~ 2023 Season ~</h5><br>
@@ -148,30 +179,40 @@
                 <p>Showboat</p>
                 <p>Stormy Weather</p>
                 <p>The Wiz</p><br>
-                <a href="https://www.backstage.com/casting/?exclude_id=33680&geo=-73.9780035%2C40.7056308&location=New+York%2CNY%2CUnited+States&pt=60&radius=50&size=3&union=N" target="_blank" class="button"><strong>Auditons</strong></a>
+                <a href="https://www.backstage.com/casting/?exclude_id=33680&geo=-73.9780035%2C40.7056308&location=New+York%2CNY%2CUnited+States&pt=60&radius=50&size=3&union=N" target="_blank" class="button">Auditions</a>
+            </div>
+
+            <div class="footer-info">
+                <h3>Information</h3><br>
+                <div class="address">
+                    <p>223 S. State Street</p>
+                    <p>Chicago, IL 60611 United States</p></div><br>
+                <div class="email">
+                    <p>HelpDesk@Griot.org</p></div><br>
+                <div class="phone">
+                    <p>Call Us: (773)321-0213</p></div><br>
             </div>
 
             <div class="footer-social">
-                <h3>Social</h3><br>  
-                <div class="youtube">
+                <h3>Social</h3><br>
+                <div class="icons">
                     <a href="https://www.youtube.com/channel/UCCUMK7NCU1p1Ga9MP2BFxJA/featured" target="_blank">
-                    <img class="social-icon" src="./images/youtube.png" alt="YouTube icon by Roundicons from flaticon.com"></a>
-                </div><br>
-                <div>
+                    <img class="social-icon" src="./images/youtube.png" alt="YouTube icon by Roundicons from flaticon.com"></a>&nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="https://www.facebook.com/GriotTheatre" target="_blank">
-                    <img class="social-icon" src="./images/facebook.png" alt="Facebook icon by Ruslan Babkin from flaticon.com"></a>
-                </div><br>
-                <div>
+                    <img class="social-icon" src="./images/facebook.png" alt="Facebook icon by Ruslan Babkin from flaticon.com"></a>&nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="https://twitter.com/GriotCompany" target="_blank">
-                    <img class="social-icon" src="./images/twitter.png" alt="Twitter icon by Hight Quality Icons from flaticon.com"></a>
-                </div><br>
-                <div>
+                    <img class="social-icon" src="./images/twitter.png" alt="Twitter icon by Hight Quality Icons from flaticon.com"></a>&nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="https://www.instagram.com/griottheatrecollective/" target="_blank">
                     <img class="social-icon" src="./images/instagram.png" alt="Instagram icon by Laisa Islam Ani from flaticon.com"></a>
-                </div>
+                </div><br>
+                <br><br><br>
+                <p><strong>Thanks for stopping by!</strong></p>
             </div>
-
+           
+            <div><p class="copyright">&copy; 2022 Griot Theatre.org</p></div>
         </div>
+           
+
     </footer>
 
 </body>
