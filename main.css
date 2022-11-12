@@ -60,6 +60,13 @@ header {
     text-align: center;
 }
 
+.search {
+    position: relative;
+    width: 100%;
+    padding: 25px;
+    text-align: center; 
+}
+
 .nav-item:hover {
     background: #92342f;
     padding: 25px;
